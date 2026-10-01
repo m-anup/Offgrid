@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Offgrid Studio — Creative Marketing & Design Agency</title>
+
+  <!-- SEO & Meta Tags -->
+  <meta name="description"
+    content="Offgrid Studio is an independent creative studio crafting visual identities, motion, digital experiences and content for ambitious brands. We make brands impossible to ignore.">
+  <meta name="keywords"
+    content="creative agency, video editing, motion graphics, branding, UI UX design, logo animation, social media, A+ content, design studio">
+  <meta name="author" content="Offgrid Studio">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Offgrid Studio — We make brands impossible to ignore.">
+  <meta property="og:description"
+    content="Independent creative studio crafting visual identities, motion, digital experiences and content for ambitious brands worldwide.">
+  <meta property="og:url" content="https://offgrid.studio/">
+  <meta property="og:image" content="assets/project-01-nexa.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Offgrid Studio — Creative Marketing & Design Agency">
+  <meta name="twitter:description" content="We make brands impossible to ignore.">
+  <meta name="twitter:image" content="assets/project-01-nexa.jpg">
+
+  <!-- Google Fonts: Syne, Space Grotesk, Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&family=Syne:wght@500;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Film Grain Overlay -->
+  <div class="grain-overlay" aria-hidden="true"></div>
+
+  <!-- Custom Pointer Cursor -->
+  <div class="custom-cursor" aria-hidden="true"></div>
+  <div class="custom-cursor-follower" aria-hidden="true">
+    <span class="cursor-text">VIEW ↗</span>
+  </div>
+
+  <!-- Top Scroll Progress Indicator -->
+  <div class="scroll-progress-bar" aria-hidden="true"></div>
+
+  <!-- ========================================================================
+       1. Navigation Bar (Sticky Minimal Header)
+       ======================================================================== -->
+  <header class="site-header" id="site-header">
+    <div class="nav-container">
+
+      <!-- Brand Logo & Availability Indicator -->
+      <a href="#hero" class="nav-brand" aria-label="Offgrid Studio Home">
+        <span class="brand-dot" aria-hidden="true"></span>
+        <span>OFFGRID®</span>
+      </a>
+
+      <!-- Desktop Center Navigation -->
+      <nav class="nav-center-menu" aria-label="Main Navigation">
+        <a href="#work" class="nav-link">Work</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#process" class="nav-link">Process</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Right Header Actions -->
+      <div class="nav-right-actions">
+        <a href="#contact" class="btn-talk" id="nav-cta-btn">
+          <span>Let's Talk</span>
+          <span class="arrow-icon" aria-hidden="true">↗</span>
+        </a>
+
+        <!-- Mobile Hamburger Toggle -->
+        <button class="menu-toggle-btn" id="mobile-toggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <aside class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
+    <nav class="mobile-nav-links">
+      <a href="#work" class="mobile-nav-item">
+        <span>Work</span>
+        <span class="item-num">[01]</span>
+      </a>
+      <a href="#services" class="mobile-nav-item">
+        <span>Services</span>
+        <span class="item-num">[02]</span>
+      </a>
+      <a href="#about" class="mobile-nav-item">
+        <span>About</span>
+        <span class="item-num">[03]</span>
+      </a>
+      <a href="#process" class="mobile-nav-item">
+        <span>Process</span>
+        <span class="item-num">[04]</span>
+      </a>
+      <a href="#contact" class="mobile-nav-item">
+        <span>Contact</span>
+        <span class="item-num">[05]</span>
+      </a>
+    </nav>
+
+    <div class="mobile-drawer-footer">
+      <div class="mobile-drawer-contact">
+        <p>Inquiries: <a href="mailto:hello@offgrid.studio">hello@offgrid.studio</a></p>
+        <p class="studio-meta-tag" style="margin-top: 0.5rem;"><span class="tag-dot"></span> New Delhi / Worldwide</p>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ========================================================================
+       Main Content
+       ======================================================================== -->
+  <main>
+
+    <!-- ======================================================================
+         2. Hero Section
+         ====================================================================== -->
+    <section class="hero-section" id="hero">
+
+      <!-- Interactive Kinetic Abstract Canvas Background -->
+      <div class="hero-canvas-wrap" aria-hidden="true">
+        <canvas id="hero-kinetic-canvas"></canvas>
+      </div>
+
+      <div class="container hero-content">
+
+        <!-- Eyebrow Metadata -->
+        <div class="hero-eyebrow reveal-fade">
+          <div class="hero-eyebrow-badge">
+            <span class="tag-dot"></span>
+            <span>INDEPENDENT CREATIVE STUDIO / INDIA + WORLDWIDE</span>
+          </div>
+          <div class="studio-meta-tag">
+            <span>[ 28°38'N 77°13'E ]</span>
+            <span>AVAILABLE FOR Q2/Q3 2026</span>
+          </div>
+        </div>
+
+        <!-- Massive Hero Headline -->
+        <div class="hero-headline-wrap">
+          <h1 class="hero-headline">
+            <span class="headline-row reveal-fade delay-1">
+              <span class="headline-word">WE</span>&nbsp;<span class="headline-word word-italic">MAKE</span>
+            </span>
+            <span class="headline-row reveal-fade delay-2">
+              <span class="headline-word word-outline">BRANDS</span>
+            </span>
+            <span class="headline-row reveal-fade delay-3">
+              <span class="headline-word">IMPOSSIBLE</span>
+            </span>
+            <span class="headline-row reveal-fade delay-4">
+              <span class="headline-word word-italic">TO</span>&nbsp;<span class="headline-word">IGNORE.</span>
+            </span>
+          </h1>
+        </div>
+
+        <!-- Description & Call to Actions -->
+        <div class="hero-bottom-grid reveal-fade delay-3">
+          <p class="hero-description">
+            Offgrid Studio is a creative marketing studio crafting visual identities, motion, digital experiences and
+            content for ambitious brands.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#work" class="btn-primary" id="hero-view-work">
+              <span>View Our Work</span>
+              <span class="btn-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a href="#contact" class="btn-secondary" id="hero-start-project">
+              <span>Start a Project</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         3. Marquee Section (Continuous Horizontal Scrolling)
+         ====================================================================== -->
+    <div class="marquee-wrapper" aria-hidden="true">
+      <div class="marquee-inner">
+
+        <!-- Track Iteration 1 -->
+        <div class="marquee-track">
+          <span class="marquee-item">VIDEO EDITING <span class="marquee-star">✦</span></span>
+          <span class="marquee-item">MOTION GRAPHICS <span class="marquee-star">✦</span></span>
+          <span class="marquee-item">BRANDING <span class="marquee-star">✦</span></span>
+          <span class="marquee-item">UI/UX <span class="marquee-star">✦</span></span>
+          <span class="marquee-item">SOCIAL MEDIA <span class="marquee-star">✦</span></span>
+          <span class="marquee-item">CONTENT <span class="marquee-star">✦</span></span>
+          <span class="marquee-item">A+ CONTENT <span class="marquee-star">✦</span></span>
+          <span class="marquee-item">LOGO ANIMATION <span class="marquee-star">✦</span></span>
+        </div>
+
+        <!-- Track Iteration 2 (Seamless Infinite Duplicate) -->
+        <div class="marquee-track">
+          <span class="marquee-item">VIDEO EDITING <span class="marquee-star">✦</span></span>
+          <span class="marquee-item">MOTION GRAPHICS <span class="marquee-star">✦</span></span>
+          <span class="marquee-item">BRANDING <span class="marquee-star">✦</span></span>
+          <span class="marquee-item">UI/UX <span class="marquee-star">✦</span></span>
+          <span class="marquee-item">SOCIAL MEDIA <span class="marquee-star">✦</span></span>
+          <span class="marquee-item">CONTENT <span class="marquee-star">✦</span></span>
+          <span class="marquee-item">A+ CONTENT <span class="marquee-star">✦</span></span>
+          <span class="marquee-item">LOGO ANIMATION <span class="marquee-star">✦</span></span>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ======================================================================
+         4. Selected Work / Portfolio (Asymmetric Modern Grid)
+         ====================================================================== -->
+    <section class="portfolio-section section-pad" id="work">
+      <div class="container">
+
+        <!-- Section Header -->
+        <div class="section-header reveal-fade">
+          <div class="section-label">
+            <span class="studio-meta-tag"><span class="tag-dot"></span> PORTFOLIO ARCHIVE</span>
+            <span class="section-index">[ 01 — 06 ]</span>
+          </div>
+          <h2 class="section-title">SELECTED WORK</h2>
+        </div>
+
+        <!-- Asymmetric Project Grid -->
+        <div class="portfolio-grid">
+
+          <!-- Project 01: NEXA -->
+          <article class="project-card reveal-fade" data-project-id="nexa" tabindex="0">
+            <div class="project-image-wrap">
+              <img src="assets/project-01-nexa.jpg" alt="NEXA Studio Brand Identity Mockup" class="project-img"
+                loading="lazy">
+              <div class="project-overlay"></div>
+              <span class="project-badge">BRAND IDENTITY / MOTION</span>
+              <div class="project-arrow-badge" aria-hidden="true">↗</div>
+            </div>
+            <div class="project-info">
+              <div class="project-meta-row">
+                <div class="project-num-title">
+                  <span class="project-num">01</span>
+                  <h3 class="project-title">NEXA</h3>
+                </div>
+                <span class="project-category">Brand Identity / Motion</span>
+              </div>
+              <p class="project-desc">
+                Sculptural typographic identity and immersive spatial audio motion language for next-generation
+                hardware.
+              </p>
+            </div>
+          </article>
+
+          <!-- Project 02: MONO -->
+          <article class="project-card reveal-fade delay-1" data-project-id="mono" tabindex="0">
+            <div class="project-image-wrap">
+              <img src="assets/project-02-mono.jpg" alt="MONO Social Video Campaign Still" class="project-img"
+                loading="lazy">
+              <div class="project-overlay"></div>
+              <span class="project-badge">SOCIAL CAMPAIGN / VIDEO</span>
+              <div class="project-arrow-badge" aria-hidden="true">↗</div>
+            </div>
+            <div class="project-info">
+              <div class="project-meta-row">
+                <div class="project-num-title">
+                  <span class="project-num">02</span>
+                  <h3 class="project-title">MONO</h3>
+                </div>
+                <span class="project-category">Social Campaign / Video</span>
+              </div>
+              <p class="project-desc">
+                35mm high-contrast cinematic social film series capturing underground luxury and pulse audio culture.
+              </p>
+            </div>
+          </article>
+
+          <!-- Project 03: VANTA -->
+          <article class="project-card reveal-fade" data-project-id="vanta" tabindex="0">
+            <div class="project-image-wrap">
+              <img src="assets/project-03-vanta.jpg" alt="VANTA UI/UX Digital Platform Design" class="project-img"
+                loading="lazy">
+              <div class="project-overlay"></div>
+              <span class="project-badge">UI/UX / DIGITAL EXPERIENCE</span>
+              <div class="project-arrow-badge" aria-hidden="true">↗</div>
+            </div>
+            <div class="project-info">
+              <div class="project-meta-row">
+                <div class="project-num-title">
+                  <span class="project-num">03</span>
+                  <h3 class="project-title">VANTA</h3>
+                </div>
+                <span class="project-category">UI/UX / Digital Experience</span>
+              </div>
+              <p class="project-desc">
+                Avant-garde dark mode spatial trading platform engineered with Swiss grid discipline.
+              </p>
+            </div>
+          </article>
+
+          <!-- Project 04: ORBIT -->
+          <article class="project-card reveal-fade delay-1" data-project-id="orbit" tabindex="0">
+            <div class="project-image-wrap">
+              <img src="assets/project-04-orbit.jpg" alt="ORBIT Product Packaging and A+ Content" class="project-img"
+                loading="lazy">
+              <div class="project-overlay"></div>
+              <span class="project-badge">PRODUCT BRANDING / A+ CONTENT</span>
+              <div class="project-arrow-badge" aria-hidden="true">↗</div>
+            </div>
+            <div class="project-info">
+              <div class="project-meta-row">
+                <div class="project-num-title">
+                  <span class="project-num">04</span>
+                  <h3 class="project-title">ORBIT</h3>
+                </div>
+                <span class="project-category">Product Branding / A+ Content</span>
+              </div>
+              <p class="project-desc">
+                Brutalist cosmetic architecture, 3D CGI hero visuals and conversion-engineered Amazon A+ modules.
+              </p>
+            </div>
+          </article>
+
+          <!-- Project 05: FRAME -->
+          <article class="project-card reveal-fade" data-project-id="frame" tabindex="0">
+            <div class="project-image-wrap">
+              <img src="assets/project-05-frame.jpg" alt="FRAME Kinetic 3D Motion Graphics Ident" class="project-img"
+                loading="lazy">
+              <div class="project-overlay"></div>
+              <span class="project-badge">MOTION GRAPHICS / LOGO ANIMATION</span>
+              <div class="project-arrow-badge" aria-hidden="true">↗</div>
+            </div>
+            <div class="project-info">
+              <div class="project-meta-row">
+                <div class="project-num-title">
+                  <span class="project-num">05</span>
+                  <h3 class="project-title">FRAME</h3>
+                </div>
+                <span class="project-category">Motion Graphics / Logo Animation</span>
+              </div>
+              <p class="project-desc">
+                Kinetic chrome typography loop simulations and fluid identity package for broadcast media.
+              </p>
+            </div>
+          </article>
+
+          <!-- Project 06: NORTH -->
+          <article class="project-card reveal-fade delay-1" data-project-id="north" tabindex="0">
+            <div class="project-image-wrap">
+              <img src="assets/project-06-north.jpg" alt="NORTH Editorial Brand Publication and Social Design"
+                class="project-img" loading="lazy">
+              <div class="project-overlay"></div>
+              <span class="project-badge">SOCIAL MEDIA / BRAND DESIGN</span>
+              <div class="project-arrow-badge" aria-hidden="true">↗</div>
+            </div>
+            <div class="project-info">
+              <div class="project-meta-row">
+                <div class="project-num-title">
+                  <span class="project-num">06</span>
+                  <h3 class="project-title">NORTH</h3>
+                </div>
+                <span class="project-category">Social Media / Brand Design</span>
+              </div>
+              <p class="project-desc">
+                Risograph-inspired publication design and organic social media grid for technical outdoor apparel.
+              </p>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         5. Services Section (Numbered Interactive Editorial List)
+         ====================================================================== -->
+    <section class="services-section section-pad" id="services">
+      <div class="container">
+
+        <!-- Section Header -->
+        <div class="section-header reveal-fade">
+          <div class="section-label">
+            <span class="studio-meta-tag"><span class="tag-dot"></span> CAPABILITIES & DISCIPLINE</span>
+            <span class="section-index">[ 08 DISCIPLINES ]</span>
+          </div>
+          <h2 class="section-title">WHAT WE DO</h2>
+        </div>
+
+        <!-- Numbered Expandable List -->
+        <div class="services-list">
+
+          <!-- 01 Video Editing -->
+          <div class="service-item reveal-fade">
+            <div class="service-header">
+              <span class="service-index">01</span>
+              <h3 class="service-name">Video Editing</h3>
+              <div class="service-action-icon" aria-hidden="true">+</div>
+            </div>
+            <div class="service-body">
+              <div class="service-content-grid">
+                <div></div>
+                <p class="service-desc-text">
+                  “From social-first cuts to cinematic brand films, we turn raw footage into stories people want to
+                  watch.”
+                </p>
+                <div class="service-tags-wrap">
+                  <span class="service-pill-tag">Color Grading</span>
+                  <span class="service-pill-tag">Sound Design</span>
+                  <span class="service-pill-tag">Short-form Reels</span>
+                  <span class="service-pill-tag">Brand Documentaries</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 02 Motion Graphics -->
+          <div class="service-item reveal-fade">
+            <div class="service-header">
+              <span class="service-index">02</span>
+              <h3 class="service-name">Motion Graphics</h3>
+              <div class="service-action-icon" aria-hidden="true">+</div>
+            </div>
+            <div class="service-body">
+              <div class="service-content-grid">
+                <div></div>
+                <p class="service-desc-text">
+                  High-velocity kinetic typography, 3D product simulation, and dynamic broadcast assets that command
+                  attention in saturated feeds.
+                </p>
+                <div class="service-tags-wrap">
+                  <span class="service-pill-tag">Kinetic Type</span>
+                  <span class="service-pill-tag">3D Simulation</span>
+                  <span class="service-pill-tag">Title Sequences</span>
+                  <span class="service-pill-tag">Broadcast Idents</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 03 Logo Animation -->
+          <div class="service-item reveal-fade">
+            <div class="service-header">
+              <span class="service-index">03</span>
+              <h3 class="service-name">Logo Animation</h3>
+              <div class="service-action-icon" aria-hidden="true">+</div>
+            </div>
+            <div class="service-body">
+              <div class="service-content-grid">
+                <div></div>
+                <p class="service-desc-text">
+                  Signature brand idents and responsive logo motion systems designed for modern screens, applications,
+                  and high-impact video intros.
+                </p>
+                <div class="service-tags-wrap">
+                  <span class="service-pill-tag">Stingers</span>
+                  <span class="service-pill-tag">Lottie Animations</span>
+                  <span class="service-pill-tag">UI Splash Loops</span>
+                  <span class="service-pill-tag">Audio Sync</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 04 Logo Design -->
+          <div class="service-item reveal-fade">
+            <div class="service-header">
+              <span class="service-index">04</span>
+              <h3 class="service-name">Logo Design</h3>
+              <div class="service-action-icon" aria-hidden="true">+</div>
+            </div>
+            <div class="service-body">
+              <div class="service-content-grid">
+                <div></div>
+                <p class="service-desc-text">
+                  Distinctive, future-proof logomarks and typographic wordmarks rooted in rigorous strategic thinking
+                  and cultural resonance.
+                </p>
+                <div class="service-tags-wrap">
+                  <span class="service-pill-tag">Wordmarks</span>
+                  <span class="service-pill-tag">Symbol Systems</span>
+                  <span class="service-pill-tag">Monograms</span>
+                  <span class="service-pill-tag">Vector Precision</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 05 Graphic Design -->
+          <div class="service-item reveal-fade">
+            <div class="service-header">
+              <span class="service-index">05</span>
+              <h3 class="service-name">Graphic Design</h3>
+              <div class="service-action-icon" aria-hidden="true">+</div>
+            </div>
+            <div class="service-body">
+              <div class="service-content-grid">
+                <div></div>
+                <p class="service-desc-text">
+                  Striking editorial design, print collateral, packaging, posters, and visual communication systems that
+                  defy corporate convention.
+                </p>
+                <div class="service-tags-wrap">
+                  <span class="service-pill-tag">Editorial</span>
+                  <span class="service-pill-tag">Packaging Design</span>
+                  <span class="service-pill-tag">OOH Billboards</span>
+                  <span class="service-pill-tag">Brand Books</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 06 UI/UX Design -->
+          <div class="service-item reveal-fade">
+            <div class="service-header">
+              <span class="service-index">06</span>
+              <h3 class="service-name">UI/UX Design</h3>
+              <div class="service-action-icon" aria-hidden="true">+</div>
+            </div>
+            <div class="service-body">
+              <div class="service-content-grid">
+                <div></div>
+                <p class="service-desc-text">
+                  Human-centered digital products, immersive web platforms, and mobile apps with intuitive
+                  micro-interactions and Swiss architecture.
+                </p>
+                <div class="service-tags-wrap">
+                  <span class="service-pill-tag">Design Systems</span>
+                  <span class="service-pill-tag">Interactive Prototypes</span>
+                  <span class="service-pill-tag">Web Platforms</span>
+                  <span class="service-pill-tag">Spatial UX</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 07 A+ Content -->
+          <div class="service-item reveal-fade">
+            <div class="service-header">
+              <span class="service-index">07</span>
+              <h3 class="service-name">A+ Content</h3>
+              <div class="service-action-icon" aria-hidden="true">+</div>
+            </div>
+            <div class="service-body">
+              <div class="service-content-grid">
+                <div></div>
+                <p class="service-desc-text">
+                  Conversion-focused Amazon brand stories, product comparison infographics, and premium e-commerce
+                  visual assets engineered to sell.
+                </p>
+                <div class="service-tags-wrap">
+                  <span class="service-pill-tag">Amazon Premium A+</span>
+                  <span class="service-pill-tag">Brand Story Modules</span>
+                  <span class="service-pill-tag">3D Product Highlights</span>
+                  <span class="service-pill-tag">Conversion Architecture</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 08 Social Media Management -->
+          <div class="service-item reveal-fade">
+            <div class="service-header">
+              <span class="service-index">08</span>
+              <h3 class="service-name">Social Media Management</h3>
+              <div class="service-action-icon" aria-hidden="true">+</div>
+            </div>
+            <div class="service-body">
+              <div class="service-content-grid">
+                <div></div>
+                <p class="service-desc-text">
+                  End-to-end creative strategy, content production cadence, and community design built for cultural
+                  relevance across modern networks.
+                </p>
+                <div class="service-tags-wrap">
+                  <span class="service-pill-tag">Content Cadence</span>
+                  <span class="service-pill-tag">Visual Identity Feed</span>
+                  <span class="service-pill-tag">Performance Analytics</span>
+                  <span class="service-pill-tag">Creative Direction</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         6. About Section (Split Screen Editorial)
+         ====================================================================== -->
+    <section class="about-section section-pad" id="about">
+      <div class="container">
+
+        <!-- Section Header -->
+        <div class="section-header reveal-fade">
+          <div class="section-label">
+            <span class="studio-meta-tag"><span class="tag-dot"></span> STUDIO MANIFESTO</span>
+            <span class="section-index">[ ABOUT OFFGRID ]</span>
+          </div>
+        </div>
+
+        <div class="about-split-grid">
+
+          <!-- Left Column: Oversized Statement -->
+          <div class="about-left-col reveal-fade">
+            <h2 class="about-statement">
+              WE DON'T<br>
+              FOLLOW<br>
+              <span class="outline-word">THE</span> GRID.
+            </h2>
+            <div class="about-philosophy-tag">
+              <span class="tag-dot"></span>
+              <span>UNCONVENTIONAL / PURPOSE-BUILT / RADICAL CLARITY</span>
+            </div>
+          </div>
+
+          <!-- Right Column: Narrative & Grounded Stats -->
+          <div class="about-right-col reveal-fade delay-1">
+            <p class="about-lead-copy">
+              “Offgrid Studio is an independent creative studio helping brands communicate through design, motion,
+              content and digital experiences.
+              We combine strategy, creativity and technology to create work that feels distinctive—not manufactured.”
+            </p>
+
+            <p class="about-body-copy">
+              We operate at the intersection of cultural foresight and technical execution. We believe the internet has
+              enough polite, indistinguishable templates. Our mission is to partner with founders and marketing leaders
+              who refuse to blend into the noise.
+            </p>
+
+            <!-- Honest Architectural Stats -->
+            <div class="about-stats-grid">
+              <div class="stat-item">
+                <span class="stat-number">08+</span>
+                <span class="stat-label">Creative Services</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">∞</span>
+                <span class="stat-label">Ideas Generated</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">01</span>
+                <span class="stat-label">Independent Studio</span>
+              </div>
+            </div>
+
+            <!-- Studio Pillars -->
+            <div class="about-pillars">
+              <div class="pillar-row">
+                <span class="pillar-bullet">✦</span>
+                <span>Zero template solutions. Every project starts from raw creative strategy.</span>
+              </div>
+              <div class="pillar-row">
+                <span class="pillar-bullet">✦</span>
+                <span>Direct partner access. Work directly with senior directors, not account layers.</span>
+              </div>
+              <div class="pillar-row">
+                <span class="pillar-bullet">✦</span>
+                <span>Craft over volume. We take on a strictly limited client roster per quarter.</span>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         7. Creative Process Section (Horizontal Timeline)
+         ====================================================================== -->
+    <section class="process-section section-pad" id="process">
+      <div class="container">
+
+        <!-- Section Header -->
+        <div class="section-header reveal-fade">
+          <div class="section-label">
+            <span class="studio-meta-tag"><span class="tag-dot"></span> METHODOLOGY</span>
+            <span class="section-index">[ 4-STAGE PIPELINE ]</span>
+          </div>
+          <h2 class="section-title">HOW WE WORK</h2>
+        </div>
+
+        <!-- 4-Stage Horizontal Grid -->
+        <div class="process-rail-grid">
+
+          <!-- Stage 01 -->
+          <div class="process-step-card reveal-fade">
+            <div class="process-step-top">
+              <span class="process-step-num">01 / STAGE</span>
+              <span class="process-step-dot" aria-hidden="true"></span>
+            </div>
+            <div>
+              <h3 class="process-step-title">DISCOVER</h3>
+              <p class="process-step-desc">
+                Understand the brand, audience, competitive landscape and ultimate objective before drawing a single
+                pixel.
+              </p>
+            </div>
+          </div>
+
+          <!-- Stage 02 -->
+          <div class="process-step-card reveal-fade delay-1">
+            <div class="process-step-top">
+              <span class="process-step-num">02 / STAGE</span>
+              <span class="process-step-dot" aria-hidden="true"></span>
+            </div>
+            <div>
+              <h3 class="process-step-title">DEFINE</h3>
+              <p class="process-step-desc">
+                Develop the creative direction, narrative architecture, moodboards, and visual language that set the
+                brand apart.
+              </p>
+            </div>
+          </div>
+
+          <!-- Stage 03 -->
+          <div class="process-step-card reveal-fade delay-2">
+            <div class="process-step-top">
+              <span class="process-step-num">03 / STAGE</span>
+              <span class="process-step-dot" aria-hidden="true"></span>
+            </div>
+            <div>
+              <h3 class="process-step-title">CREATE</h3>
+              <p class="process-step-desc">
+                Design, animate, edit, model and build. Rapid prototyping and tight iteration cycles with client
+                feedback.
+              </p>
+            </div>
+          </div>
+
+          <!-- Stage 04 -->
+          <div class="process-step-card reveal-fade delay-3">
+            <div class="process-step-top">
+              <span class="process-step-num">04 / STAGE</span>
+              <span class="process-step-dot" aria-hidden="true"></span>
+            </div>
+            <div>
+              <h3 class="process-step-title">DELIVER</h3>
+              <p class="process-step-desc">
+                Polish everything with meticulous quality control and deliver production-ready assets and design
+                systems.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         8. Bold CTA Section (High-Impact Inverted Obsidian)
+         ====================================================================== -->
+    <section class="cta-section" id="cta">
+      <div class="cta-canvas-ambient" aria-hidden="true"></div>
+
+      <div class="container">
+        <div class="cta-content reveal-fade">
+          <div class="cta-eyebrow">
+            <span>✦</span>
+            <span>LET'S BUILD YOUR NEXT CHAPTER</span>
+            <span>✦</span>
+          </div>
+
+          <h2 class="cta-headline">
+            HAVE A PROJECT<br>
+            <span class="outline-cta">IN MIND?</span>
+          </h2>
+
+          <p class="cta-subtext">
+            “Let's create something worth talking about.”
+          </p>
+
+          <a href="#contact" class="btn-cta-giant" id="cta-start-project">
+            <span>START A PROJECT</span>
+            <span class="cta-arrow" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         9. Contact Section (Minimal Studio Inquiry)
+         ====================================================================== -->
+    <section class="contact-section section-pad" id="contact">
+      <div class="container">
+
+        <div class="contact-grid">
+
+          <!-- Contact Left Info -->
+          <div class="contact-info-col reveal-fade">
+            <div class="section-label">
+              <span class="studio-meta-tag"><span class="tag-dot"></span> INQUIRIES & NEW BUSINESS</span>
+              <span class="section-index">[ RESPONSE &lt; 24H ]</span>
+            </div>
+
+            <h2 class="contact-headline">
+              LET'S MAKE<br>
+              SOMETHING.
+            </h2>
+
+            <!-- Direct Email with Copy Button -->
+            <div class="contact-email-box">
+              <span class="contact-meta-label">DIRECT STUDIO TRANSMISSION</span>
+              <a href="mailto:hello@offgrid.studio" class="contact-email-link">
+                <span>hello@offgrid.studio</span>
+              </a>
+              <button class="copy-btn copy-email-btn" type="button" aria-label="Copy Email Address">
+                <span>Copy Email ↗</span>
+              </button>
+            </div>
+
+            <!-- Social Links -->
+            <div class="contact-email-box">
+              <span class="contact-meta-label">NETWORK & ARCHIVE</span>
+              <div class="social-links-list">
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-link-item">
+                  <span>Instagram</span>
+                  <span>↗</span>
+                </a>
+                <a href="https://behance.net" target="_blank" rel="noopener noreferrer" class="social-link-item">
+                  <span>Behance</span>
+                  <span>↗</span>
+                </a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-link-item">
+                  <span>LinkedIn</span>
+                  <span>↗</span>
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Contact Form Column -->
+          <div class="contact-form-col reveal-fade delay-1">
+            <form class="contact-form" id="studio-contact-form">
+
+              <div class="form-group">
+                <label for="form-name" class="form-label">YOUR NAME *</label>
+                <input type="text" id="form-name" name="name" class="form-input" placeholder="e.g. Alex Morgan"
+                  required>
+              </div>
+
+              <div class="form-group">
+                <label for="form-email" class="form-label">EMAIL ADDRESS *</label>
+                <input type="email" id="form-email" name="email" class="form-input" placeholder="e.g. alex@brand.com"
+                  required>
+              </div>
+
+              <div class="form-group">
+                <label for="form-company" class="form-label">COMPANY / BRAND</label>
+                <input type="text" id="form-company" name="company" class="form-input"
+                  placeholder="e.g. Acme Corp or Studio Name">
+              </div>
+
+              <!-- Interactive Project Type Selector Pills -->
+              <div class="form-group">
+                <label class="form-label">PROJECT TYPE</label>
+                <input type="hidden" id="project-type-input" name="project_type" value="Brand Identity">
+                <div class="project-type-pills">
+                  <button type="button" class="type-pill is-selected" data-value="Brand Identity">Brand
+                    Identity</button>
+                  <button type="button" class="type-pill" data-value="Video & Motion">Video & Motion</button>
+                  <button type="button" class="type-pill" data-value="UI/UX & Digital">UI/UX & Digital</button>
+                  <button type="button" class="type-pill" data-value="A+ Content">A+ Content</button>
+                  <button type="button" class="type-pill" data-value="Social Media">Social Media</button>
+                  <button type="button" class="type-pill" data-value="Full Studio Direction">Full Direction</button>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="form-message" class="form-label">PROJECT BRIEF & TIMELINE *</label>
+                <textarea id="form-message" name="message" class="form-textarea"
+                  placeholder="Tell us about your brand vision, target timeline, and goals..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn-submit" id="form-submit-btn">
+                <span>SEND INQUIRY</span>
+                <span class="btn-arrow" aria-hidden="true">↗</span>
+              </button>
+
+              <div class="form-status-msg" role="status" aria-live="polite"></div>
+
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================================
+       10. Footer Section
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+
+      <div class="footer-top-grid">
+
+        <!-- Col 1: Studio Brand -->
+        <div class="footer-brand-col">
+          <div class="footer-logo">OFFGRID®</div>
+          <p class="footer-tagline">
+            “Creative studio for brands that think differently.”
+          </p>
+          <div class="footer-clock-box">
+            <span class="clock-pulse" aria-hidden="true"></span>
+            <span class="live-studio-time">NEW DELHI --:-- IST • UTC --:--</span>
+          </div>
+        </div>
+
+        <!-- Col 2: Navigation Links -->
+        <div class="footer-nav-col">
+          <span class="footer-col-title">NAVIGATION</span>
+          <div class="footer-links-group">
+            <a href="#work" class="footer-link">Work</a>
+            <a href="#services" class="footer-link">Services</a>
+            <a href="#about" class="footer-link">About</a>
+            <a href="#process" class="footer-link">Process</a>
+            <a href="#contact" class="footer-link">Contact</a>
+          </div>
+        </div>
+
+        <!-- Col 3: Social & Recognition -->
+        <div class="footer-nav-col">
+          <span class="footer-col-title">CONNECT</span>
+          <div class="footer-links-group">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="footer-link">Instagram
+              ↗</a>
+            <a href="https://behance.net" target="_blank" rel="noopener noreferrer" class="footer-link">Behance ↗</a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="footer-link">LinkedIn ↗</a>
+            <a href="mailto:hello@offgrid.studio" class="footer-link copy-email-btn">hello@offgrid.studio</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom-bar">
+        <div>
+          <span>© 2026 Offgrid Studio. Made off the grid.</span>
+        </div>
+        <div>
+          <span>EST. 2024 / INDEPENDENT / ALL RIGHTS RESERVED</span>
+        </div>
+        <div>
+          <a href="#hero" class="btn-top" aria-label="Back to Top">
+            <span>BACK TO TOP</span>
+            <span>↑</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       Project Case Study Quickview Modal
+       ======================================================================== -->
+  <div class="project-modal" id="project-modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-card">
+      <button class="modal-close-btn" aria-label="Close Case Study Modal">✕</button>
+
+      <div class="modal-media-wrap">
+        <img src="" alt="Project Case Study Visual" class="modal-img">
+      </div>
+
+      <div class="modal-content-wrap">
+        <div class="modal-header-meta">
+          <div>
+            <h3 class="modal-title">PROJECT</h3>
+            <span class="modal-category">CATEGORY</span>
+          </div>
+          <div style="text-align: right;">
+            <div class="studio-meta-tag">CLIENT: <span class="modal-client-val">OFFGRID CLIENT</span></div>
+            <div class="studio-meta-tag" style="margin-top: 0.25rem;">YEAR: <span class="modal-year-val">2026</span>
+            </div>
+          </div>
+        </div>
+
+        <p class="modal-narrative"></p>
+
+        <div style="margin-bottom: 0.75rem;">
+          <span class="contact-meta-label">DELIVERABLES & DISCIPLINES</span>
+        </div>
+        <div class="modal-deliverables-list"></div>
+
+        <div
+          style="border-top: 1px solid var(--border-light); padding-top: 1.5rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+          <a href="#contact" class="btn-primary" onclick="document.querySelector('.modal-close-btn').click();">
+            <span>Inquire About Similar Project</span>
+            <span>↗</span>
+          </a>
+          <span class="studio-meta-tag"><span class="tag-dot"></span> OFFGRID CASE STUDY #2026</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast-notice" id="toast-notice" role="alert" aria-live="assertive">
+    <span class="toast-dot" aria-hidden="true"></span>
+    <span class="toast-msg">COPIED TO CLIPBOARD</span>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
